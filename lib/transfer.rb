@@ -25,7 +25,7 @@ class Transfer
 
   
   def reverse_transfer 
-    
+    if @sender.balance 
   end 
   
 end
