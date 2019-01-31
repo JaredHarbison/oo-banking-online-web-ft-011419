@@ -8,8 +8,8 @@ class BankAccount
     @balance = 1000
   end 
   
-  def deposit(amount)
-    amount + @balance 
+  def close_account
+    @name.clear 
   end 
 
 end
